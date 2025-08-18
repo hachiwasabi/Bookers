@@ -39,7 +39,7 @@ class BooksController < ApplicationController
   def destroy
     book = Book.find(params[:id])
     book.destroy
-    redirect_to '/books/new', notice: "Book was successfully deleted."
+    redirect_to new_book_path, notice: "Book was successfully deleted."
   end
 
   private
