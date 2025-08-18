@@ -1,8 +1,8 @@
 <h1>Books</h1>
 <!-- form_with部分 -->
-<%= form_with model: @book, url: '/books', method: :post do |f| %>
+<%= form_with model: @book, url: '/books/new', method: :post do |f| %>
   
-  <h3>New book</h3>
+    <h3>New book</h3>
   
   <h4>本のタイトル</h4>
   <%= f.text_field :title %>
