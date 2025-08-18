@@ -40,8 +40,11 @@ class BooksController < ApplicationController
 
   def destroy
     book = Book.find(params[:id])
+    Rails.logger.debug "Destroying book with ID: #{params[:id]}"
     book.destroy
-    redirect_to new_book_path, notice: "Book was successfully deleted."
+    respond_to do |format|
+      format.html { redirect_to new_book_path, notice: "Book was successfully deleted."}
+    end
   end
 
   private
