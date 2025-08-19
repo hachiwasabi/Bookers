@@ -6,10 +6,10 @@ checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-rhajx3 sitelibdir\=./.gem.20250818-737696-rhajx3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-wxz24u sitelibdir\=./.gem.20250819-6535-wxz24u clean
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-rhajx3 sitelibdir\=./.gem.20250818-737696-rhajx3
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-wxz24u sitelibdir\=./.gem.20250819-6535-wxz24u
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -18,8 +18,8 @@ linking shared-object date_core.so
 lto-wrapper: warning: using serial compilation of 4 LTRANS jobs
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-rhajx3 sitelibdir\=./.gem.20250818-737696-rhajx3 install
-/usr/bin/install -c -m 0755 date_core.so ./.gem.20250818-737696-rhajx3
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-wxz24u sitelibdir\=./.gem.20250819-6535-wxz24u install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250819-6535-wxz24u
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-rhajx3 sitelibdir\=./.gem.20250818-737696-rhajx3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-wxz24u sitelibdir\=./.gem.20250819-6535-wxz24u clean

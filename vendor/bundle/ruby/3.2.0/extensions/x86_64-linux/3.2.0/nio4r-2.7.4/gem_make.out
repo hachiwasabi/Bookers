@@ -13,10 +13,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un4773 sitelibdir\=./.gem.20250818-737696-un4773 clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-b5wrkj sitelibdir\=./.gem.20250819-6535-b5wrkj clean
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un4773 sitelibdir\=./.gem.20250818-737696-un4773
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-b5wrkj sitelibdir\=./.gem.20250819-6535-b5wrkj
 compiling bytebuffer.c
 compiling monitor.c
 In file included from libev.h:7,
@@ -972,8 +972,8 @@ selector.c:525:5: warning: ignoring return value of ‘write’ declared with at
 linking shared-object nio4r_ext.so
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un4773 sitelibdir\=./.gem.20250818-737696-un4773 install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20250818-737696-un4773
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-b5wrkj sitelibdir\=./.gem.20250819-6535-b5wrkj install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20250819-6535-b5wrkj
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un4773 sitelibdir\=./.gem.20250818-737696-un4773 clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-b5wrkj sitelibdir\=./.gem.20250819-6535-b5wrkj clean

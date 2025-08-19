@@ -24,18 +24,18 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un0ukv sitelibdir\=./.gem.20250818-737696-un0ukv clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-ol2swh sitelibdir\=./.gem.20250819-6535-ol2swh clean
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un0ukv sitelibdir\=./.gem.20250818-737696-un0ukv
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-ol2swh sitelibdir\=./.gem.20250819-6535-ol2swh
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un0ukv sitelibdir\=./.gem.20250818-737696-un0ukv install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250818-737696-un0ukv/puma
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-ol2swh sitelibdir\=./.gem.20250819-6535-ol2swh install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250819-6535-ol2swh/puma
 
 current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250818-737696-un0ukv sitelibdir\=./.gem.20250818-737696-un0ukv clean
+make DESTDIR\= sitearchdir\=./.gem.20250819-6535-ol2swh sitelibdir\=./.gem.20250819-6535-ol2swh clean

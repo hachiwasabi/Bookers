@@ -12,19 +12,8 @@
 # the additional setup, and require it from the spec files that actually need
 # it.
 #
-# See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require 'capybara/rspec'
-require 'formatter/category_formatter'
-#Capybara.javascript_driver = :webkit
+# See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-	config.before(:each, type: :system) do
-    #driven_by :selenium_chrome_headless
-    driven_by :rack_test
-  end
-	# config.after(:suite) do
-	# 	DatabaseCleaner.strategy = :transaction
-	# 	DatabaseCleaner.clean_with(:truncation)
-	# end
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
@@ -72,9 +61,7 @@ RSpec.configure do |config|
 
   # Limits the available syntax to the non-monkey patched syntax that is
   # recommended. For more details, see:
-  #   - http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
-  #   - http://www.teaisaweso.me/blog/2013/05/27/rspecs-new-message-expectation-syntax/
-  #   - http://rspec.info/blog/2014/05/notable-changes-in-rspec-3/#zero-monkey-patching-mode
+  # https://rspec.info/features/3-12/rspec-core/configuration/zero-monkey-patching-mode/
   config.disable_monkey_patching!
 
   # Many RSpec users commonly either run the entire suite or an individual
@@ -104,8 +91,4 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
-  # フォーマッターの追加
-  if ENV['MENTOR_CHECK']
-    config.add_formatter CategoryFormatter
-  end
 end
