@@ -11,8 +11,7 @@ class BooksController < ApplicationController
       redirect_to book_path(@book)
     else
       @books = Book.all
-      flash[:notice] = 'Book was error created.'
-      render :new
+      render :index, status: :unprocessable_entity
     end
   end
 
@@ -47,6 +46,7 @@ class BooksController < ApplicationController
   end
 
   private
+
   def book_params
     params.require(:book).permit(:title, :body)
   end

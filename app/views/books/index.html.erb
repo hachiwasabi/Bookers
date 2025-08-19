@@ -25,18 +25,19 @@
 
 <hr>
 
-<%= form_with model: @book, local: true do |f| %>
-  <h3>New book</h3>
 
   <% if @book.errors.any? %>
-  <div style="color: red; border: 1px solid red; padding: 10px;">
-    <%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:
-  <ul>
-    <% @book.errors.full_messages.each do |message| %>
-      <li><%= message %></li>
-    <% end %>
-  </ul>
+    <p><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</p>
+      <ul>
+        <% @book.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
   <% end %>
+
+<%= form_with model: @book, local: true do |f| %>
+
+  <h3>New book</h3>
 
   <p>
     <%= f.label :title, "本のタイトル" %><br>
