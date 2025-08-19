@@ -1,46 +1,9 @@
-<h1>BookS</h1>
-
-<table>
-  <tr>
-    <th>本のタイトル</th>
-    <th>感想</th>
-  </tr>
-  <% @books.each do |book| %>
-    <tr>
-      <td><%= book.title %></td>
-      <td><%= book.body %></td>
-      <td>
-        <%= link_to "Show", book_path(book) %> |
-        <%= link_to "Edit", edit_book_path(book) %> |
-        <%= link_to "Destroy", book_path(book), method: :delete, data: { turbo_method: :delete, confirm: "Are you sure?" } %>
-      </td>
-    </tr>
-  <% end %> 
-</table>
-
-<hr>
-
-<%= form_with model: @book, local: true do |f| %>
-  <h3>New book</h3>
-
-  <% if @book.errors.any? %>
-  <%= @book.errors.count %>errors prohibited this book from being saved:
-  <ul>
-    <% @book.errors.full_messages.each do |message| %>
-      <li><%= message %></li>
-    <% end %>
-  </ul>
-  <% end %>
+<div>
+  <h1>ようこそ Bookers へ！</h1>
+  <p><strong>Bookers</strong> では、さまざまな書籍に関するあなたの意見や</p>
+  <p>印象を共有し交換することができます</p>
 
   <p>
-    <%= f.label :title, "本のタイトル" %><br>
-    <%= f.text_field :title %>
+    <%= link_to 'start', books_path %>
   </p>
-  <p>
-    <%= f.label :body, "感想" %><br>
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.submit "Create Book" %>
-  </p>
-<% end %>
+</div>
