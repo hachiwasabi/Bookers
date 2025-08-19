@@ -41,7 +41,7 @@ class BooksController < ApplicationController
     book = Book.find(params[:id])
     book.destroy
     respond_to do |format|
-      format.html { redirect_to book_path, notice: "Book was successfully deleted."}
+      format.html { redirect_to books_path, notice: "Book was successfully deleted."}
     end
   end
 
