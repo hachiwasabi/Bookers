@@ -1,0 +1,16 @@
+current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+/home/ec2-user/.rbenv/versions/3.1.6/bin/ruby -I /home/ec2-user/.rbenv/versions/3.1.6/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250820-123333-evb15o sitelibdir\=./.gem.20250820-123333-evb15o clean
+
+current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250820-123333-evb15o sitelibdir\=./.gem.20250820-123333-evb15o
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ec2-user/environment/bookers/vendor/bundle/ruby/3.1.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250820-123333-evb15o sitelibdir\=./.gem.20250820-123333-evb15o install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250820-123333-evb15o/debug
